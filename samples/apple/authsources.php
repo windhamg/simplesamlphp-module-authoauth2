@@ -13,10 +13,10 @@ $config = array(
         // 'logHttpTraffic' => true,
         'logIdTokenJson' => true,
         'providerClass' => 'League\OAuth2\Client\Provider\Apple',
-        'teamId'            => 'UPV4CB4H6W', // // 1A234BFK46 https://developer.apple.com/account/#/membership/ (Team ID)
-        'clientId' => 'edu.illinois.idpproxy.apple',
-        'redirectUri' => 'https://apple.test.idpproxy.illinois.edu/simplesaml/module.php/authoauth2/linkback.php',
-        'keyFileId' => 'D4ZC3N2PKF', // 1ABC6523AA https://developer.apple.com/account/resources/authkeys/list (Key ID)
+        'teamId'            => 'N827WEDQK9', // // 1A234BFK46 https://developer.apple.com/account/#/membership/ (Team ID)
+        'clientId' => 'net.athena-institute.idpproxy.apple',
+        'redirectUri' => 'https://apple.test.idpproxy.athena-institute.net/simplesaml/module.php/authoauth2/linkback.php',
+        'keyFileId' => '98K57TKZGJ', // 1ABC6523AA https://developer.apple.com/account/resources/authkeys/list (Key ID)
         'keyFilePath' => __DIR__ . '/../cert/apple.p8', // __DIR__ . '/AuthKey_1ABC6523AA.p8' -> Download key above. p8 is same format at pem
     ),
 

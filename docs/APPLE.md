@@ -46,6 +46,6 @@ docker run --name ssp-apple-oidc \
    -p 443:443 cirrusid/simplesamlphp
 ```
 
-Edit your `/etc/hosts` file to make `apple.test.idpproxy.illinois.edu` route to local host and then visit
- `https://apple.test.idpproxy.illinois.edu/simplesaml/module.php/core/authenticate.php?as=appleTest` to
+Edit your `/etc/hosts` file to make `apple.test.idpproxy.athena-institute.net` route to local host and then visit
+ `https://apple.test.idpproxy.athena-institute.net/simplesaml/module.php/core/authenticate.php?as=appleTest` to
 initiate a login to Apple. Non-secret values such as keyId and teamId
